@@ -96,7 +96,7 @@ const SingleProduct = () => {
                 ID : <span> {id} </span>
               </p>
               <p>
-                Brand :<span> {company} </span>
+                Brand :<span> {company?.toUpperCase()} </span>
               </p>
             </div>
             <hr />

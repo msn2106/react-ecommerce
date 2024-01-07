@@ -5,30 +5,29 @@ import { Button } from "../styles/Button";
 const HeroSection = ({ myData }) => {
   const { name } = myData;
 
+  const redirectToProducts = () => {
+    window.location.href = "/products";
+  }
+  
   return (
     <Wrapper>
-      <div className="container">
-        <div className="grid grid-two-column">
-          <div className="hero-section-data">
-            <p className="intro-data">Welcome to </p>
+      <div className='container'>
+        <div className='grid grid-two-column'>
+          <div className='hero-section-data'>
+            <p className='intro-data'>Welcome to </p>
             <h1> {name} </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-              atque temporibus veniam doloribus libero ad error omnis voluptates
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias atque temporibus veniam doloribus libero ad error omnis voluptates
               animi! Suscipit sapiente.
             </p>
             <NavLink>
-              <Button>show now</Button>
+              <Button onClick={redirectToProducts}>show now</Button>
             </NavLink>
           </div>
           {/* our homepage image  */}
-          <div className="hero-section-image">
+          <div className='hero-section-image'>
             <figure>
-              <img
-                src="images/hero.jpg"
-                alt="hero-section-photo"
-                className="img-style"
-              />
+              <img src='images/hero.jpg' alt='hero-section-photo' className='img-style' />
             </figure>
           </div>
         </div>

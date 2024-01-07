@@ -1,4 +1,6 @@
 # React E Commerce Site
+This is a sample React JS based E Commerce App.
+Stack used :- react, styled-components, axios and gh-pages
 
 ## To Use:
 1. Clone the project

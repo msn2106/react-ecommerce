@@ -6,8 +6,8 @@ import Nav from "./Nav";
 const Header = () => {
   return (
     <MainHeader>
-      <NavLink to="/">
-        <img src="./images/logo.png" alt="my logo img" height={60} width={60}/>
+      <NavLink to="/react-ecommerce">
+        <img src="../images/logo.png" alt="my logo img" height={60} width={60}/>
       </NavLink>
       <Nav />
     </MainHeader>

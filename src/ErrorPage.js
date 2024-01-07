@@ -15,7 +15,7 @@ const ErrorPage = () => {
             homepage.
           </p>
 
-          <NavLink to="/">
+          <NavLink to="/react-ecommerce">
             <Button>Go Back to Home</Button>
           </NavLink>
         </div>

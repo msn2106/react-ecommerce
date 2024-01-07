@@ -44,12 +44,12 @@ const App = () => {
         <GlobalStyle />
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/products" element={<Products />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/singleproduct/:id" element={<SingleProduct />} />
-          <Route path="/cart" element={<Cart />} />
+          <Route path="/react-ecommerce" element={<Home />} />
+          <Route path="/react-ecommerce/products" element={<Products />} />
+          <Route path="/react-ecommerce/contact" element={<Contact />} />
+          <Route path="/react-ecommerce/about" element={<About />} />
+          <Route path="/react-ecommerce/singleproduct/:id" element={<SingleProduct />} />
+          <Route path="/react-ecommerce/cart" element={<Cart />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
         <Footer />

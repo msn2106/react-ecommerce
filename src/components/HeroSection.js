@@ -6,9 +6,9 @@ const HeroSection = ({ myData }) => {
   const { name } = myData;
 
   const redirectToProducts = () => {
-    window.location.href = "/products";
-  }
-  
+    window.location.href = "/react-ecommerce/products";
+  };
+
   return (
     <Wrapper>
       <div className='container'>
@@ -27,7 +27,7 @@ const HeroSection = ({ myData }) => {
           {/* our homepage image  */}
           <div className='hero-section-image'>
             <figure>
-              <img src='images/hero.jpg' alt='hero-section-photo' className='img-style' />
+              <img src='../images/hero.jpg' alt='hero-section-photo' className='img-style' />
             </figure>
           </div>
         </div>

@@ -5,7 +5,7 @@ import styled from "styled-components";
 const PageNavigation = ({ title }) => {
   return (
     <Wrapper>
-      <NavLink to="/products">Products</NavLink>/{title}
+      <NavLink to="/react-ecommerce/products">Products</NavLink>/{title}
     </Wrapper>
   );
 };
